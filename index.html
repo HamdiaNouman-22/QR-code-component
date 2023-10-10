@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    *{
+        width: 1440px;
+        background-color:  hsl(212, 45%, 89%);
+    }
+    .container {
+       background-color: hsl(0, 0%, 100%);
+       width: 250px;
+       height: 400px;
+       margin: 100px auto;
+       border-radius:17px ;
+    }
+    .container img{
+        width: 225px;
+        height: 225px;
+        /* padding: 16px; */
+        padding-top: 13px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-top-right-radius: 27px;
+        border-top-left-radius: 27px;
+         border-bottom-left-radius: 25px;
+         border-bottom-right-radius: 25px;
+        /* border-radius: 30px; */
+        background: none;
+        margin-bottom: 17px;
+    }
+    .box{
+        width: 225px;
+        text-align: center;
+        /* background-color: red; */
+        margin:0px auto;
+        background: none;
+    }
+   .m1{
+    display: inline;
+    background: none;
+    font-size: 15px;
+    text-align: center;
+    /* padding: 0px auto; */
+    padding-left: 6px;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+  
+   color: hsl(218, 44%, 22%);
+   }
+   .m2{
+    background: none;
+    display: inline;
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+   }
+</style>
+</head>
+<body>
+  <div class="container">
+     <img src="/qr-code-component-main/images/image-qr-code.png" alt="">
+     <div class="box">
+      <h1 class="m1"> Improve your front-end </h1>
+          <h1 class="m1">skills by building projects</h1>
+          <p style="margin-bottom: 10px;"></p>
+       <p class="m2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p></div>
+  </div>
+</body>
+</html>
